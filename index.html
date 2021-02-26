@@ -19,12 +19,13 @@
                 font-style: normal;
                 font-weight: 100;
             }
-            .menu { background-color:rgb(49, 47, 47); width:100%; height:50px; position:relative; } /* To mauro to background einai*/
+            .menu { background-color:rgb(49, 47, 47); width:100%; height:50px; position:relative;border-bottom:solid;border-width: 1px;border-color: #d4d3d3d2; } /* To mauro to background einai*/
             .p { text-align: center ; font-size: 32px; position:absolute; top:5px; left:329px; font-family: blankriver;  } /*edo einai gia to text tou menu */
             body { font-family: Calibri; color: #d4d3d3d2;margin: 0%;background-color: #181717d2; } /*Geniko tou body gramatosira kai to background color*/
             .t-a-c {text-align: center;} /* Geniko kentrarisma */
             ul{list-style-position: inside; font-weight: bold;} /* Lista Settings*/
             .d-a { display: inline;}
+            .m-t { margin-top:25px}
 
         </style>
 
@@ -36,26 +37,29 @@
     </head>
     <body>
         
-        <div>
+        <header>
+            <div>
 
-                <div class="menu" >
-                    <div class="p"> L33T NET </div>
-                </div>     
-        </div>
-
+                    <div class="menu" >
+                        <div class="p"> L33T NET </div>
+                    </div>     
+            </div>
+        </header>
         
-        <p class="t-a-c">Καλωσορίσατε στην ιστοσελίδα του L33T NET &#128516; </p>
+        <main class="m-t">
+            <p class="t-a-c">Καλωσορίσατε στην ιστοσελίδα του L33T NET &#128516; </p>
 
-        <div class="t-a-c" >
-             <a href="https://discord.gg/YaGY8fWf8u" target="_blank" style="color: #637e26d2;"><p  class="d-a">Το Discord Link</p></a>
-        </div>
-        <p class="t-a-c"><b>Τι θες ; Το εχεις</b> </p>
+            <div class="t-a-c" >
+                <a href="https://discord.gg/YaGY8fWf8u" target="_blank" style="color: #637e26d2;"><p  class="d-a">Το Discord Link</p></a>
+            </div>
+            <p class="t-a-c"><b>Τι θες ; Το εχεις</b> </p>
 
-        <ul class="t-a-c">
-            <li>Lobby</li>
-            <li>Gaming</li>
-            <li>Stocks,Crypto</li>
-            <li>Developing</li>
-        </ul>
+            <ul class="t-a-c" ; style= "margin-top: 30px;">
+                <li>Lobby</li>
+                <li>Gaming</li>
+                <li>Stocks,Crypto</li>
+                <li>Developing</li>
+            </ul>
+        </main>
     </body>
 </html>
